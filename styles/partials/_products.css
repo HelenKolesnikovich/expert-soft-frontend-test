@@ -26,7 +26,7 @@
 
 .products__item {
   position: relative;
-  width: 45%;
+  width: 80%;
   max-width: 320px;
   margin-bottom: 3%;
   padding: 3%;
@@ -81,10 +81,6 @@
   text-align: center;
   z-index: 10;
 }
-/*.products__figure:hover .products__image,
-.products__figure:focus .products__image {
-  transform: scale(1.4);
-}*/
 
 .products__figure:hover,
 .products__figure:focus {
@@ -148,6 +144,11 @@
 }
 
 @media all and (min-width: 640px) {
+  .products__item {
+    position: relative;
+    width: 50%;
+    max-width: 320px;
+  }
   .products__figure::before {
     width: 25%;
     padding: 5%;
