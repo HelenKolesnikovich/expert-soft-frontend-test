@@ -1,0 +1,16 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: var(--ff-medium), sans-serif;
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.d-flex {
+  display: flex;
+}

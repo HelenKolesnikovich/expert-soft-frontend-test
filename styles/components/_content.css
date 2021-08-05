@@ -1,0 +1,17 @@
+.content {
+  min-width: var(--width-s);
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media all and (min-width: var(--media-width-m)) {
+  .content {
+    min-width: var(--width-m);
+  }
+}
+
+@media all and (min-width: var(--media-width-l)) {
+  .content {
+    min-width: var(--width-l);
+  }
+}

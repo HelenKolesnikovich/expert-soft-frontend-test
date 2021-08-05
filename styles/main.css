@@ -1,0 +1,7 @@
+@import './global/reset.css';
+@import './global/fonts.css';
+@import './global/vars.css';
+@import './global/common.css';
+@import './global/template.css';
+
+@import './components/_content.css';

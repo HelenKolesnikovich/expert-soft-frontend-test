@@ -1,0 +1,29 @@
+:root {
+  --media-width-l: 1200px;
+  --media-width-m: 640px;
+  --media-width-s: 320px;
+
+  --media-height-xl: 1080px;
+  --media-height-l: 1024px;
+  --media-height-m: 768px;
+  --media-height-s: 667px;
+
+  --width-xl: 1200px;
+  --width-l: 800px;
+  --width-m: 600px;
+  --width-s: 300px;
+
+  --ff-bold: "roboto-700";
+  --ff-medium: "roboto-500";
+  --ff-regular: "roboto-400";
+
+  --bg-beige: #E5E5E5;
+  --bg-light: #FDFDFD;
+  --bg-sale: rgba(255, 248, 245, 0.85);
+
+
+  --color-dark: #272626;
+  --color-logo: #073C2A;
+  --color-accent1: #EB8671;
+  --color-accent2: #D7537A;
+}
