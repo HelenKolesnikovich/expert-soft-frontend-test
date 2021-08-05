@@ -1,0 +1,40 @@
+.logo {
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-function);
+}
+.logo:active {
+  transform: scale(.8);
+}
+
+.logo__link {
+  font-family: var(--ff-bold), sans-serif;
+  font-size: 24px;
+  color: var(--color-logo);
+  text-transform: uppercase;
+  transition-property: opacity;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-function);
+}
+.logo__link:hover,
+.logo__link:focus {
+  opacity: .8;
+}
+
+.logo__img {
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+@media all and (min-width: 640px) {
+  .logo__link {
+    text-align: center;
+  }
+  .logo__link span {
+    display: block;
+  }
+}

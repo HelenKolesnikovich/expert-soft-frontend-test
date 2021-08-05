@@ -13,11 +13,13 @@
   --width-m: 600px;
   --width-s: 300px;
 
+  --padding-header-s: 30px 0;
+
   --ff-bold: "roboto-700";
   --ff-medium: "roboto-500";
   --ff-regular: "roboto-400";
 
-  --bg-beige: #E5E5E5;
+  --bg-beige: #FFF0E4;
   --bg-light: #FDFDFD;
   --bg-sale: rgba(255, 248, 245, 0.85);
 
@@ -26,4 +28,7 @@
   --color-logo: #073C2A;
   --color-accent1: #EB8671;
   --color-accent2: #D7537A;
+
+  --transition-duration: .5s;
+  --transition-function: easy-out;
 }

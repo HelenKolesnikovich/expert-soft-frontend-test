@@ -1,0 +1,29 @@
+.menu {
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__link {
+  margin-left: 30px;
+
+  font-size: 16px;
+  color: var(--color-accent1);
+  text-transform: capitalize;
+  cursor: pointer;
+  transition-property: text-decoration, transform;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-function);
+}
+
+.menu__link:first-child {
+  margin-left: 0;
+}
+.menu__link:hover,
+.menu__link:focus {
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+.menu__link:active {
+  text-decoration: underline;
+  transform: scale(1);
+}

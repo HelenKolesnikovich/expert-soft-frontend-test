@@ -1,0 +1,17 @@
+.header {
+  padding: var(--padding-header-s);
+  background-color: var(--bg-beige);
+  color: var(--color-logo);
+}
+
+.header .wrapper-content {
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media all and (min-width: 640px) {
+  .header .wrapper-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
