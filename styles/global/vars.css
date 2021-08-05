@@ -13,7 +13,9 @@
   --width-m: 600px;
   --width-s: 300px;
 
-  --padding-header-s: 30px 0;
+  --padding-header-s: 10px 0;
+  --padding-header-m: 20px 0;
+  --padding-footer-s: 20px 0;
 
   --ff-bold: "roboto-700";
   --ff-medium: "roboto-500";
@@ -22,7 +24,6 @@
   --bg-beige: #FFF0E4;
   --bg-light: #FDFDFD;
   --bg-sale: rgba(255, 248, 245, 0.85);
-
 
   --color-dark: #272626;
   --color-logo: #073C2A;

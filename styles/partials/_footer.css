@@ -1,0 +1,14 @@
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: var(--padding-footer-s);
+  background-color: var(--bg-beige);
+  font-size: 12px;
+}
+
+.footer__copywrites {
+  font-family: var(--ff-regular);
+  text-align: center;
+}

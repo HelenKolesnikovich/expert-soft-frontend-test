@@ -6,6 +6,7 @@
 
 @import './components/_content.css';
 @import './partials/_header.css';
+@import './partials/_footer.css';
 
 @import './components/_logo.css';
 @import './components/_header-nav.css';
