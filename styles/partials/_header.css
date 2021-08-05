@@ -10,6 +10,9 @@
 }
 
 @media all and (min-width: 640px) {
+  .header {
+    padding: var(--padding-header-m);
+  }
   .header .wrapper-content {
     flex-direction: row;
     justify-content: space-between;
