@@ -18,6 +18,7 @@
   --padding-hero-s: 50px 0;
   --padding-hero-m: 100px 0 50px;
   --padding-hero-l: 100px 0;
+  --padding-products-s: 50px 0;
   --padding-footer-s: 20px 0;
 
   --ff-bold: "roboto-700";
@@ -27,7 +28,7 @@
   --bg-beige: #FFF0E4;
   --bg-light-beige: #FFF8F5;
   --bg-light: #FDFDFD;
-  --bg-sale: rgba(255, 248, 245, 0.85);
+  --bg-sale: #FD984F;
 
   --bg-hero-gradient: linear-gradient(180deg, #FFF0E4 0%, rgba(255, 248, 245, 0) 0.01%, rgba(255, 248, 245, 0.5) 25.52%, #FFF8F5 100%);
 
@@ -35,6 +36,7 @@
   --color-logo: #073C2A;
   --color-accent1: #EB8671;
   --color-accent2: #D7537A;
+  --color-sale: #fff;
 
   --transition-duration: .5s;
   --transition-function: easy-out;
